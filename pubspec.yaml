@@ -1,10 +1,10 @@
 name: einfach_stillen
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: ">=3.2.6 <4.0.0"
 
 dependencies:
   flutter:
@@ -17,3 +17,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora-Regular.ttf
+        - asset: assets/fonts/Lora-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Lora-SemiBold.ttf
+          weight: 600
